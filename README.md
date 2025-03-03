@@ -6,11 +6,11 @@ Plato's Pizza, a Greek-inspired pizza restaurant in New Jersey, has been collect
 ##  Problems at hand
 We need to address the Problems by getting the answers to the following questions:
 
-1. **What days and times do we tend to be busiest? How can we optimize staff scheduling and inventory management based on peak hours?**  
+1. **What days and times do we tend to be busiest? How can we optimize operations during peak hours?**  
 
-2. **How many pizzas are we making during peak periods? Should we consider expanding production capacity or introducing special offers during off-peak hours?** 
+2. **How many pizzas are we making during peak periods? How can we expand production capacity accordingly?** 
 
-3. **What are our best and worst-selling pizzas? Should we discontinue or modify underperforming pizzas and promote top-selling ones more aggressively?** 
+3. **What are our best and worst-selling pizzas? Should we discontinue or modify underperforming pizzas?** 
 
 4. **What's our average order value? Can we introduce bundle deals or upselling strategies to increase order value?**  
 
@@ -42,28 +42,28 @@ The dataset contains the following columns:
 
 ##  Analysis & Insights
 
-### **1. What days and times do we tend to be busiest?**
+### **1. What days and times do we tend to be busiest? How can we optimize operations during peak hours**
 - **Busiest Day:** Friday (8,106 orders)
 - **Busiest Time Slot:** 12 PM - 2 PM (12,754 orders)
 - **Analysis:** Friday being the busiest day suggests increased demand on weekends. The highest volume of orders occurring between 12 PM - 2 PM highlights the lunch rush.
 - **Recommendation:** Increase staffing and prep during peak hours, optimize promotions for slower days.
 
-### **2. How many pizzas are we making during peak periods?**
+### **2. How many pizzas are we making during peak periods? How can we expand production capacity accordingly?**
 - **Peak Months:** July (4,392), May (4,328), March (4,261), November (4,266)
 - **Total pizzas made in peak months:** 17,247
 - **Analysis:** Seasonal trends suggest higher sales in summer and holiday months.
-- **Recommendation:** Stock up on ingredients in peak months, offer seasonal promotions.
+- **Recommendation:** Stock up on ingredients in peak months, offer seasonal promotions during off-season.
 
-### **3. What are our best and worst-selling pizzas?**
-- **Best Seller:** The Classic Deluxe Pizza (2,453 orders)
+### **3. What are our best and worst-selling pizzas? Should we discontinue or modify underperforming pizzas?**
+- **Best Seller:** The Classic Deluxe Pizza (2,453 orders), The Barbecue Chicken Pizza (2,432 orders) & The Hawaiian Pizza (2,422 orders)
 - **Worst Seller:** The Brie Carre Pizza (490 orders)
 - **Analysis:** Some pizza types significantly outperform others, indicating customer preference.
 - **Recommendation:** Discontinue or revamp the lowest-selling pizzas and focus marketing efforts on the top performers.
 
-### **4. What's our average order value?**
-- **Average Order Value:** $16.82 (~$17)
-- **Analysis:** Customers tend to spend around $17 per order.
-- **Recommendation:** Introduce upselling strategies such as meal combos and loyalty discounts.
+### **4. What's our average order value? How can we introduce upselling strategies to increase order value?** 
+- **Average Order Value:** $16.82 (~$17) 
+- **Analysis:** Customers tend to spend around $17 per order. 
+- **Recommendation:** Introduce upselling strategies such as meal combos and loyalty card discounts. 
 
 ### **5. How well are we utilizing our seating capacity?**
 - **Average Orders per Seating:** 20.7 orders/hour
@@ -88,5 +88,5 @@ This analysis provided actionable insights for Plato’s Pizza to optimize its o
 4. Implement bundling strategies and upsell techniques to increase order value.
 5. Improve seating management, explore reservations, and emphasize takeout/delivery options.
 
-This project demonstrates how businesses can leverage data-driven insights to make informed decisions and drive growth. 🚀
+This project demonstrates how businesses can leverage data-driven insights to make informed decisions and drive growth.
 
