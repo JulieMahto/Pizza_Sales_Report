@@ -1,4 +1,5 @@
 # Plato’s Pizza Sales Analysis
+![Alt text](https://cdn.enjoytravel.com/img/Big7Enjoy/en/travel-news/food-and-drink/best-pizza-europe/da-paolo-restaurant-nicosia-cyprus.webp)
 
 ##  Project Overview
 Plato's Pizza, a Greek-inspired pizza restaurant in New Jersey, has been collecting transactional data for the past year. However, they have not leveraged this data to enhance their operations. The primary objective of this analysis is to extract actionable insights from their sales data to optimize business performance.
