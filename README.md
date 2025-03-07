@@ -4,19 +4,6 @@
 ## Project Overview
 Plato's Pizza, a Greek-inspired pizza restaurant in New Jersey, has been collecting transactional data for the past year. However, they have not leveraged this data to enhance their operations. The primary objective of this analysis is to extract actionable insights from their sales data to optimize business performance.
 
-## Problems at hand
-We need to address the Problems by getting the answers to the following questions:
-
-1. **What days and times do we tend to be busiest? How can we optimize operations during peak hours?**  
-
-2. **How many pizzas are we making during peak periods? How can we expand production capacity accordingly?** 
-
-3. **What are our best and worst-selling pizzas? Should we discontinue or modify underperforming pizzas?** 
-
-4. **What's our average order value? Can we introduce bundle deals or upselling strategies to increase order value?**  
-
-5. **How well are we utilizing our seating capacity? Do we need to adjust our floor plan, introduce a reservation system, or explore delivery/takeout promotions?**
-   
 ---
 
 ##  Understanding the Data
@@ -48,6 +35,7 @@ The dataset contains the following columns:
 - **Busiest Time Slot:** 12 PM - 2 PM (12,754 orders)
 - **Analysis:** Friday being the busiest day suggests increased demand on weekends. The highest volume of orders occurring between 12 PM - 2 PM highlights the lunch rush.
 - **Recommendation:** Increase staffing and prep during peak hours, optimize promotions for slower days.
+  
 
 ### **2. How many pizzas are we making during peak periods? How can we expand production capacity accordingly?**
 - **Peak Months:** July (4,392), May (4,328), March (4,261), November (4,266)
