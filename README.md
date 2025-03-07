@@ -31,6 +31,7 @@ The dataset contains the following columns:
 ##  Analysis & Insights
 
 ### **1. What days and times do we tend to be busiest? How can we optimize operations during peak hours**
+<img src="Images/orders on week days.png" width="260" height="150"> <img src="Images/Timeframe of orders.png" width="260" height="150">
 - **Busiest Day:** Friday (8,106 orders)
 - **Busiest Time Slot:** 12 PM - 2 PM (12,754 orders)
 - **Analysis:** Friday being the busiest day suggests increased demand on weekends. The highest volume of orders occurring between 12 PM - 2 PM highlights the lunch rush.
@@ -38,12 +39,14 @@ The dataset contains the following columns:
   
 
 ### **2. How many pizzas are we making during peak periods? How can we expand production capacity accordingly?**
+<img src="Images/orders during months.png" width="360" height="200"> 
 - **Peak Months:** July (4,392), May (4,328), March (4,261), November (4,266)
 - **Total pizzas made in peak months:** 17,247
 - **Analysis:** Seasonal trends suggest higher sales in summer and holiday months.
 - **Recommendation:** Stock up on ingredients in peak months, offer seasonal promotions during off-season.
 
 ### **3. What are our best and worst-selling pizzas? Should we discontinue or modify underperforming pizzas?**
+<img src="Images/pizza categories.png" width="360" height="200">
 - **Best Seller:** The Classic Deluxe Pizza (2,453 orders), The Barbecue Chicken Pizza (2,432 orders) & The Hawaiian Pizza (2,422 orders)
 - **Worst Seller:** The Brie Carre Pizza (490 orders)
 - **Analysis:** Some pizza types significantly outperform others, indicating customer preference.
@@ -51,10 +54,11 @@ The dataset contains the following columns:
 
 ### **4. What's our average order value? How can we introduce upselling strategies to increase order value?** 
 - **Average Order Value:** $16.82 (~$17) 
-- **Analysis:** Customers tend to spend around $17 per order. 
+- **Analysis:** Most Customers tend to buy 1-2 pizzas per order. 
 - **Recommendation:** Introduce upselling strategies such as meal combos and loyalty card discounts. 
 
 ### **5. How well are we utilizing our seating capacity?**
+<img src="Images/seating arrangement.png" width="360" height="200">
 - **Average Orders per Seating:** 20.7 orders/hour
 - **Seats Available:** 60
 - **Analysis:** The restaurant has excess seating capacity during most hours.
